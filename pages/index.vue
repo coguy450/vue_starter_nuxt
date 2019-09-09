@@ -2,7 +2,7 @@
   <v-layout column justify-center align-center>
     <v-flex xs12 sm8 md6 >
       <div class="text-center">
-        Eric's content here
+        Logos can go here
       </div>
       <v-card>
         <v-card-title class="headline">
@@ -10,7 +10,7 @@
         </v-card-title>
         <v-card-text>
           <p>Vuetify is a progressive Material Design component framework for Vue.js. It was designed to empower developers to create amazing applications.</p>
-        
+
           <p>Thank you for developing with Vuetify and I look forward to bringing more exciting features in the future.</p>
           <div class="text-xs-right">
             <em><small>&mdash; John Leider</small></em>

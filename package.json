@@ -9,12 +9,14 @@
     "build": "nuxt build",
     "start": "cross-env NODE_ENV=production node server/index.js",
     "generate": "nuxt generate",
+    "serve-prod": "node server",
     "test": "jest"
   },
   "dependencies": {
-    "nuxt": "^2.0.0",
+    "@nuxtjs/axios": "^5.6.0",
     "cross-env": "^5.2.0",
-    "express": "^4.16.4"
+    "express": "^4.17.1",
+    "nuxt": "^2.0.0"
   },
   "devDependencies": {
     "nodemon": "^1.18.9",
