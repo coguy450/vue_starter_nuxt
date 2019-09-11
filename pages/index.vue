@@ -12,23 +12,14 @@
           <p>Vuetify is a progressive Material Design component framework for Vue.js. It was designed to empower developers to create amazing applications.</p>
 
           <p>Thank you for developing with Vuetify and I look forward to bringing more exciting features in the future.</p>
-          <div class="text-xs-right">
-            <em><small>&mdash; John Leider</small></em>
-          </div>
+ 
           <hr class="my-3">
-          <a
-            href="https://nuxtjs.org/"
-            target="_blank"
-          >
-            Nuxt Documentation
-          </a>
+          <a href="https://nuxtjs.org/" target="_blank"> Nuxt Documentation</a>
           <br>
           <a
             href="https://github.com/nuxt/nuxt.js"
             target="_blank"
-          >
-            Nuxt GitHub
-          </a>
+          >Nuxt GitHub</a>
         </v-card-text>
         <v-card-actions>
           <v-spacer />
@@ -46,13 +37,10 @@
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
-import VuetifyLogo from '~/components/VuetifyLogo.vue'
+// import Logo from '~/components/Logo.vue'
 
 export default {
   components: {
-    Logo,
-    VuetifyLogo
   }
 }
 </script>

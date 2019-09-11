@@ -2,9 +2,6 @@ const colors = require('vuetify/es5/util/colors').default
 
 module.exports = {
   mode: 'spa',
-  /*
-  ** Headers of the page
-  */
   head: {
     titleTemplate: '%s - ' + process.env.npm_package_name,
     title: process.env.npm_package_name || '',
@@ -25,6 +22,9 @@ module.exports = {
   /*
   ** Global CSS
   */
+  server: {
+   port: 5005
+  },
   css: [
   ],
   /*
